@@ -30,7 +30,7 @@ Each round gets harder as the sequence grows longer!
 ---
 
 ## 📸 Demo
-Play it live here: [Simon Says Game](https://<your-username>.github.io/simon-says-game/)
+Play it live here: [Simon Says Game](https://bhavesh-om.github.io/Simon-Says-Game/)
 
 ---
 
