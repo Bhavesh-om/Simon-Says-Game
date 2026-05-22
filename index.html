@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Says Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Background video plays once, no loop -->
+  <video class="background-video" autoplay muted playsinline preload="auto">
+    <source src="5961667-hd_1920_1080_15fps.mp4" type="video/mp4">.
+  </video>
+
+  <!-- Loader -->
+  <div class="loader-overlay" id="loaderOverlay">
+    <div class="loader">
+      <div class="loader-circle yellow"></div>
+      <div class="loader-circle sky"></div>
+      <div class="loader-circle purple"></div>
+      <div class="loader-circle green"></div>
+    </div>
+  </div>
+
+  <div class="screen-effect" id="screenEffect"></div>
+
+  <!-- Game content -->
+  <div class="content">
+    <h1>SIMON SAYS</h1>
+    <h2 id="status">Press Any Key To Start The Game</h2>
+    <div class="game-container">
+      <div class="box yellow btn" id="yellow">1</div>
+      <div class="box sky btn" id="sky">2</div>
+      <div class="box purple btn" id="purple">3</div>
+      <div class="box green btn" id="green">4</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
